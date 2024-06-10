@@ -12,7 +12,7 @@ function App() {
   return (
     <div className="App">
       <div className="landing relative h-screen w-full">
-        <img src={`${process.env.PUBLIC_URL}/metacapventure-coverweb.png`} alt="Cover" className="absolute inset-0 w-full h-full object-cover z-0" />
+        <img src={`${process.env.PUBLIC_URL}/metacap-cover.png`} alt="Cover" className="absolute inset-0 w-full h-full object-cover z-0" />
         <button
         onClick={scrollToPortfolio}
         className="absolute bottom-5 left-1/2 transform -translate-x-1/2 text-white bg-branding-purple hover:bg-branding-marine-navy p-3 rounded-full"
