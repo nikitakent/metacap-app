@@ -9,30 +9,35 @@ function Portfolio() {
     <div className="portfolio h-screen py-16 bg-branding-marine-navy text-white font-sailors flex flex-col justify-center relative">
       <h2 className="text-4xl font-extrabold mb-12 text-center text-branding-purple">Selected Investments:</h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 justify-items-center">
-        {/* Add your logos and links here */}
-        <a href="https://example.com" target="_blank" rel="noopener noreferrer" className="portfolio-item">
-          <img src="/portfolio-logos/alto.png" alt="Alto" className="h-20 mb-4" />
-          <p className="text-center">Alto</p>
+        <a href="https://altoira.com/" target="_blank" rel="noopener noreferrer" className="portfolio-item group">
+          <img src="/portfolio-logos/alto.png" alt="Alto" className="h-32 w-32 mb-4 rounded-lg" />
+          <p className="text-center group-hover:hidden">Alto</p>
+          <p className="text-center hidden group-hover:block">Alto is an IRA-enabled alternative investing platform.</p>
         </a>
-        <a href="/portfolio-logos/doorvest.png" target="_blank" rel="noopener noreferrer" className="portfolio-item">
-          <img src="/portfolio-logos/doorvest.png" alt="Doorvest" className="h-20 mb-4" />
-          <p className="text-center">Doorvest</p>
+        <a href="https://doorvest.com/" target="_blank" rel="noopener noreferrer" className="portfolio-item group">
+          <img src="/portfolio-logos/doorvest.png" alt="Doorvest" className="h-32 w-32 mb-4 rounded-lg" />
+          <p className="text-center group-hover:hidden">Doorvest</p>
+          <p className="text-center hidden group-hover:block">Online platform for real estate sourcing, renovating, leasing and management.</p>
         </a>
-        <a href="https://example.com" target="_blank" rel="noopener noreferrer" className="portfolio-item">
-          <img src="/portfolio-logos/kneron.png" alt="Kneron" className="h-20 mb-4" />
-          <p className="text-center">Kneron</p>
+        <a href="https://kneron.com/ja" target="_blank" rel="noopener noreferrer" className="portfolio-item group">
+          <img src="/portfolio-logos/kneron.png" alt="Kneron" className="h-32 w-32 mb-4 rounded-lg" />
+          <p className="text-center group-hover:hidden">Kneron</p>
+          <p className="text-center hidden group-hover:block">Kneron is a leading provider of edge AI solutions.</p>
         </a>
-        <a href="https://example.com" target="_blank" rel="noopener noreferrer" className="portfolio-item">
-          <img src="/portfolio-logos/sote.png" alt="Logo 4" className="h-20 mb-4" />
-          <p className="text-center">Sote</p>
+        <a href="https://www.sote.com/" target="_blank" rel="noopener noreferrer" className="portfolio-item group">
+          <img src="/portfolio-logos/sote.png" alt="Sote" className="h-32 w-32 mb-4 rounded-lg" />
+          <p className="text-center group-hover:hidden">Sote</p>
+          <p className="text-center hidden group-hover:block">Supply chain tools for international trade with Africa.</p>
         </a>
-        <a href="https://example.com" target="_blank" rel="noopener noreferrer" className="portfolio-item">
-          <img src="/portfolio-logos/emtech.png" alt="Emtech" className="h-20 mb-4" />
-          <p className="text-center">Emtech</p>
+        <a href="https://emtech.com/" target="_blank" rel="noopener noreferrer" className="portfolio-item group">
+          <img src="/portfolio-logos/emtech.png" alt="Emtech" className="h-32 w-32 mb-4 rounded-lg" />
+          <p className="text-center group-hover:hidden">Emtech</p>
+          <p className="text-center hidden group-hover:block">Modern central banking for the fintech era.</p>
         </a>
-        <a href="https://example.com" target="_blank" rel="noopener noreferrer" className="portfolio-item">
-          <img src="/portfolio-logos/boilerplate.png" alt="Coming Soon" className="h-20 mb-4" />
-          <p className="text-center">coming soon</p>
+        <a href="https://metacapventures.com" target="_blank" rel="noopener noreferrer" className="portfolio-item group">
+          <img src="/portfolio-logos/boilerplate.png" alt="Coming Soon" className="h-32 w-32 mb-4 rounded-lg" />
+          <p className="text-center group-hover:hidden">Coming Soon</p>
+          <p className="text-center hidden group-hover:block">Coming soon</p>
         </a>
       </div>
 

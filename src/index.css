@@ -25,6 +25,9 @@ body {
 
 .portfolio-item {
   transition: transform 0.3s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .portfolio-item:hover {
@@ -33,10 +36,23 @@ body {
 
 .portfolio-item img {
   transition: filter 0.3s ease-in-out;
+  border-radius: 0.5rem; /* Rounded edges */
 }
 
 .portfolio-item:hover img {
   filter: brightness(1.2);
+}
+
+.portfolio-item p {
+  transition: opacity 0.3s ease-in-out;
+}
+
+.group-hover .group-hover\\:hidden {
+  display: none;
+}
+
+.group-hover .group-hover\\:block {
+  display: block;
 }
 
 
