@@ -55,4 +55,39 @@ body {
   display: block;
 }
 
+.logo {
+  max-width: 80%; /* Default size for mobile */
+}
+
+@media (min-width: 640px) {
+  .logo {
+    max-width: 80%;
+  }
+}
+
+@media (min-width: 768px) {
+  .logo {
+    max-width: 70%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .logo {
+    max-width: 60%;
+  }
+}
+
+@media (min-width: 1280px) {
+  .logo {
+    max-width: 50%;
+  }
+}
+/* 
+@media (max-width: 640px) {
+  .portfolio-item {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+}
+ */
 

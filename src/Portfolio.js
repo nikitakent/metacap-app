@@ -6,9 +6,9 @@ function Portfolio() {
   };
 
   return (
-    <div className="portfolio h-screen py-16 bg-branding-marine-navy text-white font-sailors flex flex-col justify-center relative">
-      <h2 className="text-4xl font-extrabold mb-12 text-center text-branding-purple">Selected Investments:</h2>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 justify-items-center">
+    <div className="portfolio lg:h-screen py-16 bg-branding-marine-navy text-white font-sailors flex flex-col justify-center relative">
+      <h2 className="text-4xl font-extrabold pt-10 mb-20 text-center text-branding-purple">Selected Investments:</h2>
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 justify-items-centers">
         <a href="https://altoira.com/" target="_blank" rel="noopener noreferrer" className="portfolio-item group">
           <img src="/portfolio-logos/alto.png" alt="Alto" className="h-32 w-32 mb-4 rounded-lg" />
           <p className="text-center group-hover:hidden">Alto</p>
@@ -36,8 +36,8 @@ function Portfolio() {
         </a>
         <a href="https://metacapventures.com" target="_blank" rel="noopener noreferrer" className="portfolio-item group">
           <img src="/portfolio-logos/boilerplate.png" alt="Coming Soon" className="h-32 w-32 mb-4 rounded-lg" />
-          <p className="text-center group-hover:hidden">Coming Soon</p>
-          <p className="text-center hidden group-hover:block">Coming soon</p>
+          <p className="text-center pb-5 group-hover:hidden">Coming Soon</p>
+          <p className="text-center pb-5 hidden group-hover:block">Coming soon</p>
         </a>
       </div>
 
